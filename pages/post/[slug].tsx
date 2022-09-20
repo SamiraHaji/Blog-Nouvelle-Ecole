@@ -60,18 +60,6 @@ function Post({ post }: Props) {
         />
 
       </article>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <div className="p-8 flex items-between justify-between">
-  <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 dark:bg-white dark:hover:bg-gray-100 dark:text-black font-bold py-2 px-4 rounded-l">
-    Prev
-  </button>
-  <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
-    Next
-  </button>
-</div>
     </main>
   );
 }
